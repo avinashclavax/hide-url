@@ -12,6 +12,9 @@ import { HeaderComponent } from './components/layout/header/header.component';
 import { SidebarComponent } from './components/layout/sidebar/sidebar.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { LayoutComponent } from './components/layout/layout/layout.component';
+import { MenuEditComponent } from './components/menu/menu-edit/menu-edit.component';
+import { ItemEditComponent } from './components/item/item-edit/item-edit.component';
+import { LoginComponent } from './components/no-auth/login/login.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +27,10 @@ import { LayoutComponent } from './components/layout/layout/layout.component';
         HeaderComponent,
         SidebarComponent,
         FooterComponent,
-        LayoutComponent
+        LayoutComponent,
+        MenuEditComponent,
+        ItemEditComponent,
+        LoginComponent
     ],
     imports: [
         BrowserModule,
